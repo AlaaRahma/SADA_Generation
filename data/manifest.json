@@ -1,0 +1,49 @@
+{
+ "name": "SADA",
+ "frozen": "2026-11-08 11:14:26",
+ "rows": 4229,
+ "by_source": {
+  "Arsarcasm_v2": 3443,
+  "Isarcasm": 786
+ },
+ "by_source_dialect": {
+  "Arsarcasm_v2|Gulf": 228,
+  "Arsarcasm_v2|Levant": 175,
+  "Arsarcasm_v2|MSA": 1777,
+  "Arsarcasm_v2|Maghreb+Nile Basin": 1263,
+  "Isarcasm|Gulf": 5,
+  "Isarcasm|Levant": 40,
+  "Isarcasm|MSA": 38,
+  "Isarcasm|Maghreb": 120,
+  "Isarcasm|Nile Basin": 583
+ },
+ "ars_by_pool": {
+  "strict": 2492,
+  "standard": 951
+ },
+ "text_differs_from_orthomatched": 3238,
+ "derived_from": {
+  "file": "/home/wael/fdsdl/dataset_benchmark/arsfix/iter/D1.5-w0.3.csv",
+  "sha256": "845464f93e1a35c1aab895b7f5a455998dc4d0523b653c918b9f032b9295c49f",
+  "teacher": "/home/wael/fdsdl/dataset_benchmark/arsfix/iter/D1.5-w0.3_teacher_pens.csv",
+  "teacher_sha256": "76e3222de492ebf869170ee40a1176848f193dc337f3f620b8bbb1311002916e",
+  "step3": "/home/wael/fdsdl/dataset_benchmark/sada_final_r/data/step3_scored.csv",
+  "sada_final_train": "/home/wael/fdsdl/dataset_sada_final_final_v41clean/balanced/train.csv",
+  "sada_final_train_sha256": "3b10e3a6b5f4f5a7ef39160a318e98e5202f21a770f558fe3404b1fa20cc7d47"
+ },
+ "p1_train": {
+  "rows": 22777,
+  "authentic": 18548,
+  "synthetic": 4229
+ },
+ "sha256": {
+  "sada.csv": "5a186deca77b339cab3cd6b65a2674d65931b8c5a49bd784d0b8057c48fa1f46",
+  "sada_train_tagged.csv": "845464f93e1a35c1aab895b7f5a455998dc4d0523b653c918b9f032b9295c49f",
+  "sada_teacher_pens.csv": "76e3222de492ebf869170ee40a1176848f193dc337f3f620b8bbb1311002916e",
+  "p1_dataset/train.csv": "05cd70f6c77fec14aeb86f5f93e7737b0dc1727fd96e1a7d0ca50ad57ac24d89",
+  "p1_dataset/validation.csv": "de310da67bb63f57b71ea9b76108eee99f75aa7ff8a4819e49563c3bc53254f3",
+  "p1_dataset/test.csv": "000a500e1886e6a0128e9ed0e75fdd26ff4d76d89a35f7fd7214dd6a0b15ac29"
+ },
+ "display_name": "SADA",
+ "legacy_name": "SADA-final-C"
+}
